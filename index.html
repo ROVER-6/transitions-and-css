@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- hello world example-->
+<p class="test">hello world</p>
+
+<!-- let's create a button and make transitions for it. -->
+<!-- to make it bold, we can use: <b> -->
+<center><button class="transition"><b>Hello World</b></button></center>
+
+<!-- this will be our css. -->
+<style>
+
+    p.test {
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: yellow;
+        background-color: green;
+        border-radius: 8px;
+    }
+
+    button.transition {
+        background-color: darkgreen;
+        color: white;
+        border-radius: 12px;
+        transition: ease-out 0.3s;
+        cursor: pointer;
+        border: none;
+        height: 300px;
+        width: 500px;
+    }
+    /*now watch, this is the key to make a transition.*/
+    button.transition:hover {
+        background-color: #333;
+        color: white;
+        border-radius: 12px;
+    }
+    /*sorry this tutorial was quick... i just wanted to cover some basics. if you check the description, there will be a link to this via GitHub and you can alter it yourself.
+    I will be making this a series and will make a site over a couple of videos. I will teach you how to host it for free too. */
+
+</style>
